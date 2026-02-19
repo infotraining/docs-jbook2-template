@@ -1,5 +1,5 @@
 ---
-title: Jupyter Book 2 Workshop Template
+title: Jupyter Book 2 Template
 site:
   hide_outline: true
   hide_toc: true
@@ -8,17 +8,17 @@ site:
 
 <div style="text-align: center">
 
-# Jupyter Book 2 Workshop Template
+# Jupyter Book 2 Template
 
 </div>
 
-```{figure} content/figures/logo.svg
-:width: 80%
+```{figure} content/figures/cpp-logo.svg
+:width: 60%
 :align: center
 ```
 
 _A GitHub Template repository designed for use in Jupyter Book 2 and MyST workshops._
 
 <div style="text-align: center", font-size: 1.2em>
-Freek Pols, Luuk Fröling, Robert Lanzafame, Kirstie Whitaker, Jim Madge
+Krystian Piękoś, Infotraining
 </div>

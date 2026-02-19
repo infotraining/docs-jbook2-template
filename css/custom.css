@@ -1,5 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;400;600;700&family=Roboto+Condensed:wght@400;700&family=JetBrains+Mono:wght@400;500;600&display=swap");
 
-/* Code toegevoegd 17/05. Leuke kleurtjes zodat het makkelijk te zien is wat waar komt */
+/* Custom site styles. Keep this file small and focused. */
+
+body {
+  font-family: "Fira Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+}
+
+nav {
+    font-family: "Roboto Condensed", "Fira Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Roboto Condensed", "Fira Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+}
+
+code,
+pre,
+kbd,
+samp {
+  font-family: "JetBrains Mono", ui-monospace, "SFMono-Regular", Menlo, Consolas, "Liberation Mono", monospace;
+  font-weight: 500;
+}
+
+:root {
+  --tw-prose-code: rgb(0, 109, 7 !important); /* pick your color */
+}
+
+.prose {
+  --tw-prose-code: rgb(8, 85, 27);
+}
+
+pre.myst-code-body {
+  background-color: #f0f0f0 !important;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.shadow-md {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2) !important;
+}
+
+.shadow {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2) !important;
+}
+
+.rounded {
+    border-radius: 0 !important;
+}
+
+.rounded-lg {
+    border-radius: 0 !important;
+}
+
+/* .rounded-md {
+    border-radius: 0 !important;
+} */
 
 /*Title color in dark mode*/
 .dark aside.admonition-experiment .dark\:text-white {
@@ -136,10 +195,3 @@ aside.admonition-example > div:first-child > div:first-child {
 aside.admonition-example img {
 display: block;
 }
-
-
-/* dark mode white inverter */
-.dark img[src$=".svg"]:not(.no-invert) {
-  filter: invert(1) brightness(1);
-}
-
